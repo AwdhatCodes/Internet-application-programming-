@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Query for the submit button and input task field
     const submit = document.getElementById('submitButton');
     const newTask = document.getElementById('taskInput');
-    
   
     // Disable the submit button by default
     submit.disabled = true;
